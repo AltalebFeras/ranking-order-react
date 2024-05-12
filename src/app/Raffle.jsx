@@ -77,7 +77,7 @@ function Raffle() {
         onClick={handleRaffle}
         disabled={participants.length === 0}
       >
-        Start Raffle
+        Start Raffling
       </button>
       <button className="btn btn-warning   mx-3 mb-3" onClick={handleClearRankingOrder}>
             Clear Ranking
@@ -98,7 +98,7 @@ function Raffle() {
           </ul>
         </div>
         <div>
-          <h3>Ranking Order:</h3>
+          <h3>Ranking Order :</h3>
         
           <ul className="list-group">
             {finalParticipants.map((participant, index) => (
